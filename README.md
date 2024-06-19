@@ -27,11 +27,11 @@ set "PYTHONPYCACHEPREFIX=%CD%\python-cache"
 
 <h5>Create folder to store data</h5>
 mkdir "%CD%\python-cache"<br/>
-mkdir "%CD%\src"<br/>
-mkdir "%CD%\src\downloads"<br/>
-mkdir "%CD%\src\screenshots"<br/>
+mkdir "%CD%\python-tools"<br/>
+mkdir "%CD%\python-tools\downloads"<br/>
+mkdir "%CD%\python-tools\screenshots"<br/>
 <br/>
-cd "%CD%\src"<br/>
+cd "%CD%\python-tools"<br/>
 set "PYTHONPATH=%CD%"<br/>
 cd "%BACKUP_CD%"
 
